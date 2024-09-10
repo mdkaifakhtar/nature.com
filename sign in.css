@@ -1,0 +1,45 @@
+.sign{
+    background-image:url(http://cdn.wallpapersafari.com/73/11/GvRgUQ.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 3px solid black;
+    border-radius:20px;
+    width: 35%;
+    height:33vh;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:15px;
+    padding:10px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding:10px;
+}
+p input{
+    background: transparent;
+    border:3px solid black;
+    border-radius:10px;
+    margin:10px;
+    padding: 10px;
+}
+
+button{
+    border:3px solid black;
+    border-radius:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:17%;
+    height: 30px;
+    font-size: medium;
+    background: transparent;
+}
+
+button:hover{
+    background-color:rgba(250, 222, 222, 0.6);
+
+}

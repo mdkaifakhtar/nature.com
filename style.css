@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 25px;
+}
+header{
+    display: flex;
+    background:transparent;
+    height: 4px;
+    border-radius: 20px;
+
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li {
+    display: flex;
+    list-style: none;
+}
+.nav ul li a{
+display: flex;
+text-decoration: none;
+color: white;
+margin:100px;
+padding:10px;
+font-weight: bolder ;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 40px;
+} 
+.logo img{
+    display: flex;
+    width:220px;
+    height:220px;
+    border-radius: 80px;
+    margin:20px;
+    padding:25px;
+}
+.nav ul li a:hover{
+    background-color:rgb(163, 240, 86);
+    border: 2px solid black;
+    border-radius:20px;
+}
+.container{
+    height: 110vh;
+    background:url(https://i.ytimg.com/vi/nrP24bPT1IM/maxresdefault.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+.container h1{
+    display: flex;
+    justify-content:center;
+    color:rgba(128, 253, 100, 0.821);
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.save h1{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    margin:30px;
+}
+
+.btn{
+      width:100%;
+      height: 150vh;
+      background-image: url(https://www.leaflimb.com/assets/posts/saplings_banner.jpg);
+      background-size: cover;
+      background-position:center ;
+      border:5px solid black;
+      border-radius:20px;
+}
+
+.btn ul li{
+    font-size: 35px;
+    margin:20px;
+    padding:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+}
+
+.btn h3{
+    font-size: 30px;
+    margin:20px;
+    padding:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.effect h1{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    margin:30px;
+}
+
+.btn-2{
+    width:100%;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/44/a3/b4/44a3b4a9f74e412804450410c446fb97.jpg);
+    border:5px solid black;
+    border-radius:20px;
+    background-size: cover;
+    background-position:center ;
+
+}
+
+.btn-2 ul li{
+  font-size: 35px;
+  margin:20px;
+  padding:15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.btn-2 h3{
+  font-size: 30px;
+  margin:20px;
+  padding:15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media and screen(max-width:767px) {
+    
+    
+}
